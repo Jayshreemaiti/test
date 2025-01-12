@@ -1,0 +1,213 @@
+/* .navbar{
+    margin-left: -200px;
+    margin-right: -200px;
+} */
+#navbarSupportedContent{
+    margin-left:750px;
+}
+.navbar-nav{
+    gap: 10px;
+}
+
+.box1{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 0, 0);
+}
+.sub-box{
+    font-size: 28px;
+    margin-top: 300px;
+    margin-left: 1000px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+.sub-box2{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 1000px;
+    color: black;
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+#logout{
+    margin-left: 20px;
+}
+.container-fluid{
+background-image:url(../image/image2.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+}
+.btn1{
+    margin-left: 1200px;
+}
+.box2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+hr{
+    width: 200px;
+    margin-top:-1px;
+    color:cadetblue;
+    border: 1px solid;
+}
+.sub-box3{
+    margin-top: 20px;
+   text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+    font-size: 15px;
+}
+.w-100{
+    height: 20px;
+}
+.fa-gears,.fa-trophy{
+    font-size: 30px;
+    color: cadetblue;
+    margin-left: 150px;
+}
+ .fa-key, .fa-droplet{
+    font-size: 30px;
+    color: cadetblue;
+    margin-left: 50px;
+   
+}
+.box3{
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+#email-id{
+background-color: rgba(255, 255, 255, 0.58);
+border: rgba(255, 255, 255, 0.763);
+width: 300px;
+margin-left: 450px;
+text-align: center;
+font-style: italic;
+margin-bottom: 30px;
+height: 40px;
+}
+#sub{
+    background-color: rgb(101, 220, 143);
+    border: rgba(255, 255, 255, 0.763);
+    width: 200px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    height: 40px;
+    }
+    .col-2{
+        height: 100px;
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+    .col-3{
+        background-color: rgb(101, 220, 143);
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .col-3 span{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .fa-facebook{
+        font-size: 55px;
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+    }
+    h1{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;  
+    }
+    .box4{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fa-location-dot, .fa-phone, .fa-envelope{
+        font-size: 15px;
+        color: cadetblue;
+        /* margin-left: 150px;   */
+    }
+    h6 span{
+        margin-left: 15px;
+    }
+    #name, #email, #subject{
+        width: 500px;
+    }
+    textarea{
+        width: 500px;
+        height: 100px;
+    }
+    #submitButton{
+        margin-left: 200px;
+        background-color: rgb(101, 220, 143);
+        border: rgb(101, 220, 143);
+        color: white;
+        width: 100px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    #submitButton:hover{
+        background-color: rgb(184, 85, 189);
+        border: rgb(101, 220, 143);
+        color: white;
+    }
+@media (max-width:575.98px){
+    #navbarSupportedContent{
+        margin-left:1px;
+    }
+    .navbar-nav{
+        gap:1px;
+    }  
+}
+@media (min-width:576px) and (max-width:767.98px){
+    #navbarSupportedContent{
+        margin-left:1px;
+    }
+    .navbar-nav{
+        gap:1px;
+    }  
+}
+@media (min-width:768px) and (max-width:991.98px){
+    #navbarSupportedContent{
+        margin-left:1px;
+    }
+    .navbar-nav{
+        gap: 1px;
+    } 
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    #navbarSupportedContent{
+        margin-left:200px;
+    }
+    .navbar-nav{
+        gap: 10px;
+    } 
+}
+@media (min-width:1200px){
+    #navbarSupportedContent{
+        margin-left:450px;
+    }
+    .navbar-nav{
+        gap: 10px;
+    } 
+}

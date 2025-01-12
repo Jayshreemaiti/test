@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <form id="logout" method="post">
+                <input type="button" class="btn btn-outline-info my-2 my-sm-0" name="logout" id="login" value="Logout">
+                <form>
+
+                </form>
+            </div>
+        </nav>
+        <div class="container-fluid bg-info">
+            <div class="box1">
+            <p class="sub-box">Lorem ipsum dolor sit amet </p>
+            <p class="sub-box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p class="sub-box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button class="btn1 btn-outline-success my-2 my-sm-0" type="submit">More Info</button>
+            <p></p>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="box2">Services</div><hr>
+            <p class="sub-box3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci aperiam quod ducimus consequatur quibusdam reiciendis ipsum eius veniam dolorum, animi odit atque illo iure nostrum, earum necessitatibus quasi laborum ipsa.</p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-6 d-flex"><i class="fa-solid fa-gears"></i><span style="margin-left: 30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque voluptatibus sapiente aliquid qui.</span></div>
+            <div class="col-6  d-flex"><i class="fa-solid fa-key"></i><span style="margin-left: 30px;margin-right:100px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque voluptatibus sapiente aliquid qui.</span></div>
+            <div class="w-100"></div>
+            <div class="col-6 d-flex"><i class="fa-solid fa-trophy"></i><span style="margin-left: 30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque voluptatibus sapiente aliquid qui.</span></div>
+            <div class="col-6 d-flex"><i class="fa-solid fa-droplet"></i><span style="margin-left: 30px;margin-right:100px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque voluptatibus sapiente aliquid qui.</span></div>
+        </div>
+        <div class="col-12 mt-5 bg-dark">
+            <div class="box3">subscribe to our newsletter</div>
+            <div class="row d-flex mt-4">
+                <form method="post">
+                    <input type="text" placeholder="enter your email address" id="email-id">
+                </form>
+                <input type="button" value="Subscribe" id="sub">
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="box2">our products</div><hr>
+            </div>
+            <div class="row mt-5 d-flex">
+                <div class="col-2 bg-light"></div>
+                <div class="col-2 bg-dark"></div>
+                <div class="col-2 bg-light"></div>
+                <div class="col-2 bg-dark"></div>
+            </div>
+            <div class="col-lg-12 bg-light d-flex mt-5">
+                <div class="col-3"><span>stay connected</span><i class="fa-brands fa-facebook"></i></div>
+                <div class="col-4 d-flex flex-column"><h1>general</h1><div class="box4">
+                    <h6><i class="fa-solid fa-location-dot"></i><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. </span></h6>
+                    <h6><i class="fa-solid fa-phone"></i><span>+60 3-5637 5737</span></h6>
+                    <h6><i class="fa-solid fa-envelope"></i><span>enquiry@chroymed.com.my</span></h6>
+                </div></div>
+                <div class="col-4"><h1>contact form</h1>
+                    <form method="post">
+                <input type="text" name="name" id="name" placeholder="Name"><br>
+                <p id="name_err" style="text-align: center;color: red;"></p>
+                <input type="text" name="email" id="email" placeholder="Email"><br>
+                <p id="email_err" style="text-align: center;color: red;"></p>
+                <input type="text" name="subject" id="subject" placeholder="Subject"><br>
+                <p id="subject_err" style="text-align: center;color: red;"></p>
+                <textarea name="message" id="message" placeholder="Message"></textarea><br>
+                <p id="message_err" style="text-align: center;color: red;"></p>
+                <input type="button" name="submit" id="submitButton" value="Submit">
+                </form>
+            
+            </div>
+
+            </div>  
+    </div>
+    
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
